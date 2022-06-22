@@ -1,0 +1,54 @@
+
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <form name="dentaku">
+    <table>
+        <script src="kadai.js"></script>
+
+      <tr>
+        <td colspan="4">
+          <input type="text" class="display" name="display" value="" disabled>
+        </td>
+      </tr>
+ 
+
+      <tr>
+        <td><input type="button" value="7" onclick="keisan(this)"></td>
+        <td><input type="button" value="8" onclick="keisan(this)"></td>
+        <td><input type="button" value="9" onclick="keisan(this)"></td>
+        <td><input type="button" value="÷" class="operator" name="div_btn" onclick="keisan(this)"></td>
+      </tr>
+
+      <tr>
+        <td><input type="button" value="4" onclick="keisan(this)"></td>
+        <td><input type="button" value="5" onclick="keisan(this)"></td>
+        <td><input type="button" value="6" onclick="keisan(this)"></td>
+        <td><input type="button" value="×" class="operator" name="multi_btn" onclick="keisan(this)"></td>
+      </tr>
+ 
+
+      <tr>
+        <td><input type="button" value="1" onclick="keisan(this)"></td>
+        <td><input type="button" value="2" onclick="keisan(this)"></td>
+        <td><input type="button" value="3" onclick="keisan(this)"></td>
+        <td><input type="button" value="-" class="operator" name="minus_btn" onclick="keisan(this)"></td>
+      </tr>
+ 
+  
+      <tr>
+        <td><input type="button" value="0" onclick="keisan(this)"></td>
+        <td><input type="button" value="." onclick="keisan(this)"></td>
+        <td><input type="button" value="AC" onclick="keisan(this)"></td>
+        <td><input type="button" value="+" class="operator" name="plus_btn" onclick="keisan(this)"></td>
+        <td><input type="button" value="=" class="equal"  onclick="keisan(this)"></td>
+      </tr>
+ 
+    </table>
+  </form>
+</body>
+</html>
